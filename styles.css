@@ -1,0 +1,119 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+a {
+    text-decoration: none;
+    padding: 5px ;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+}
+button ,
+input {
+    border : 1px solid ;
+    border-radius: 6px;
+}
+.course-link {
+    display:none;
+}
+.nav-bar {
+    display:none;
+    position: fixed;
+    top: 70px;
+    left:0;
+    width: 100%;
+    background-color:#1e3a8a;
+    z-index: 999;
+
+}
+.side-bar:hover + .nav-bar,
+.nav-bar:hover {
+    display:block;
+    border-radius:10px;
+    a {
+        display:block;
+        color:#1e3a8a;
+        background-color:#f8fafc;
+        transition:0.6s;
+    }
+    transition:0.6s;
+}
+
+video {
+    display:flex;
+    width :80%;
+    margin:auto;
+    border-radius:10px;
+} 
+img {
+    width: 80%;
+    margin : auto;
+}
+input ,
+label {
+    display:block;
+    margin-top: 7px;
+    width :75%;
+}
+.side-bar {
+    display:flex;
+    justify-content:space-between;
+    background-color: #1e3a8a;
+    border: 10px solid #1e3a8a;
+    border-radius:10px;
+}  
+button {
+    width:fit-content;
+    border-radius:60px;
+    background-color: #f97316;
+    border: 1px solid #f97316;
+    color:#1e3a8a;
+    font-weight:bolder;
+}
+h3 {
+      color:#1e3a8a;
+}
+h2 {
+    color:#f8fafc;
+    background-color :#1e3a8a;
+    padding: 90px 30px;
+    text-align:center;
+    border-radius:10px;
+    border: 1px solid #1e3a8a
+}
+label {
+    color:#1e3a8a;
+    font-weight:bolder;
+}
+h1 {
+    color:#f8fafc;
+}
+html {
+    background-color:#f8fafc;
+}
+input {
+    border: 1px solid #1e3a8a;
+}
+button:hover {
+    background-color:#f8fafc;
+    border: 1px solid #f8fafc;
+    transition:0.5s;
+}
+h2:hover {
+    padding: 50px 50px;
+    color:#f97316;
+    transition: 0.6s;
+}
+.card-container a {
+   color:#f8fafc;
+   background-color:#f97316;
+   border-radius:8px;
+}
+.card-container a:hover {
+    background-color:#1e3a8a;
+}
+.card:hover .course-link {
+    display:block;
+}
+form {
+    margin-top:30px;
+    line-height: 2 ;
+}
+
