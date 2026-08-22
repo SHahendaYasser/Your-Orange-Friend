@@ -85,9 +85,6 @@ label {
 h1 {
     color:#f8fafc;
 }
-html {
-    background-color:#f8fafc;
-}
 input {
     border: 1px solid #1e3a8a;
 }
@@ -116,4 +113,9 @@ form {
     margin-top:30px;
     line-height: 2 ;
 }
+body {
+    background: linear-gradient (to bottom,#1D2B64, #7F7FD5, #FFB75E);
+    background-attachment: fixed; /* لتثبيت الخلفية أثناء التمرير */
+}
+    
 
