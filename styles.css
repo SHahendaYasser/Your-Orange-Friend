@@ -114,7 +114,7 @@ form {
     line-height: 2 ;
 }
 body {
-    background: linear-gradient (to bottom,#1D2B64, #7F7FD5, #FFB75E);
+    background-image: linear-gradient (to bottom,#1D2B64, #7F7FD5, #FFB75E);
     background-attachment: fixed; /* لتثبيت الخلفية أثناء التمرير */
 }
     
