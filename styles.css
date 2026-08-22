@@ -114,8 +114,12 @@ form {
     line-height: 2 ;
 }
 body {
-    background-image: linear-gradient (to bottom,#1D2B64, #7F7FD5, #FFB75E);
-    background-attachment: fixed; /* لتثبيت الخلفية أثناء التمرير */
+    background-image: url(''); 
+    background-size: covered ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
+    
     
 
