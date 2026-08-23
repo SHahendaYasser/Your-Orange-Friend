@@ -20,11 +20,11 @@ input {
     display:none;
     position: fixed;
     top: 70px;
-    left:0;
-    width: 100%;
+    left:20px;
+    width: 90%;
     background-color:#1D2B64;
     z-index: 999;
-
+    border-radius: 12px;
 }
 .side-bar:hover + .nav-bar,
 .nav-bar:hover {
