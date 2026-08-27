@@ -109,7 +109,8 @@ h2:hover {
 .card-container a:hover {
     background-color:#1e3a8a;
 }
-.card:hover .course-link {
+.card:hover .course-link ,
+.course-link:hover {
     display:block;
 }
 form {
